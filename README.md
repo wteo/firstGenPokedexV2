@@ -4,7 +4,7 @@
 
 Pokemon is a popular videogame series featuring fantastical monsters with elemental powers called Pokemon (short for "Pocket Monsters") that a player can catch and train to fight other players. I came across the <a href="https://pokeapi.co/" target="_blank">PokeAPI</a>, an API that contains data for each Pokemon, including its height, weight, types and battle stats. The Pokemon franchise remained a popular franchise amongst millenials and the younger generation. Hence, I thought it'll be a fun project to create an unofficial Pokedex (short for "Pokemon Index") listing all the original 151 Pokemon that a user could use to learn more about their favourite monsters.
 
-I built the first version of the <a href="https://github.com/wteo/firstGenPokedexOld" target="_blank">Pokedex</a> in February 2022 out of vanilla JavaScript.
+I built the first version of the <a href="https://github.com/wteo/firstGenPokedexV1" target="_blank">Pokedex</a> in February 2022 out of vanilla JavaScript.
 
 ![image](https://user-images.githubusercontent.com/87306585/185771075-963d7881-050b-4f71-8590-93f1107f68e6.png)
 <br/>
