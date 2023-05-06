@@ -1,0 +1,29 @@
+.card {
+    background-color: var(--card-background-color);
+    border-radius: 15px;
+    padding: 12.5% 2.5% 5% 2.5%;
+    margin-top: -10%;
+    border: 1px dashed var(--card-border-color);
+}
+
+.beforeSlideIn {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+    
+.slideIn {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.2s, transform 0.2s;
+}
+    
+.beforeSlideOut {
+    opacity: 1;
+    transform: translateY(0);;
+}
+    
+.slideOut {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.2s, transform 0.2s;
+}

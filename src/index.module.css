@@ -1,0 +1,26 @@
+* {
+    --pokedex-main-color: rgb(200, 0, 0);
+    --pokedex-border-color: rgb(104, 0, 0);
+    --background-screen-color: rgb(86, 86, 86);
+    --buttons-background-color: rgb(247, 210, 0);
+    --buttons-border-color: rgb(155, 131, 0);
+    --text-color-pokemon-name: rgb(255, 255, 255);
+    --card-border-color: rgb(2, 2, 177);
+    --main-text-color: rgb(2, 2, 177);
+    --card-background-color: rgb(4, 4, 139, 0.2);
+    --border-background-color: rgb(189, 189, 189);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--main-text-color);
+}
+
+button {
+    border: 0px;
+}

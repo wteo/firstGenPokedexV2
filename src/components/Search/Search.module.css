@@ -1,0 +1,21 @@
+.typesList {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5%;
+}
+
+.searchButton {
+    margin-top: 2.5%;
+    background-color: var(--buttons-background-color);
+    border-radius: 10%;
+    border: 5px outset var(--buttons-border-color);
+}
+
+.searchButton:hover {
+    cursor: pointer;
+}
+
+.searchButton:active {
+    border: 2.5px inset var(--buttons-border-color);
+    transition: border 0.1s;
+}

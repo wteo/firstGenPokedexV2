@@ -1,0 +1,19 @@
+.pagination li {
+  display: inline-block;
+  margin: 3vh 0vw;
+  padding: 2vh 1vw;
+  transition: all ease-in-out 0.25s;
+}
+
+.pagination li:hover {
+  background-color: rgba(0, 0, 255, 0.182);
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+
+
+

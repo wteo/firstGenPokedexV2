@@ -1,0 +1,52 @@
+.resultTitle {
+    margin-top: 5vh;
+    padding-bottom: 5%;
+    display: block;
+}
+
+.resultsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 3%;
+    column-gap: 3%;
+}
+
+.resultsContainer a {
+    text-decoration: none;
+}
+
+.resultsContainer a:focus,
+.resultsContainer a:active,
+.resultsContainer a:hover {
+  color: inherit; /* keep the color the same when the link is focused, active, or hovered */
+  outline: none; /* remove the outline when the link is focused */
+}
+
+.result {
+    border: 2px solid var(--card-border-color);
+    border-radius: 5px;
+}
+
+.result:hover {
+    background-color: var(--card-background-color);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.5s, font-weight 0.5s;
+}
+
+.result img {
+    width: 100%;
+}
+
+.result p {
+    margin: auto 0;
+    padding: auto 0;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+
+
+
